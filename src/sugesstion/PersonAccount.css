@@ -1,0 +1,66 @@
+.username__left{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imgPersonAccount {
+    width: 60px;
+    height: 60px;
+}
+
+.dPersonAccount img{
+    display: flex;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.informacoes{
+    margin-left: 10px;
+}
+
+.username__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    color: gray;
+    font-size: 12px;
+}
+
+.suggestion__username{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.toChange__button{
+    color: #0095f6;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+    align-self: flex-end;
+    margin: auto;
+    font-size: 10px;
+    gap: 50px;
+}
+
+.toChange__button:hover  {
+    cursor: pointer;
+    color: white;
+}
+
+.username{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+}
